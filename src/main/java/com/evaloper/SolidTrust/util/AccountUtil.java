@@ -26,7 +26,8 @@ public class AccountUtil {
     public static final String ACCOUNT_DEBITED_SUCCESS_MESSAGE = "Account has been debited successfully";
 
     public static final String TRANSFER_SUCCESSFUL_CODE = "008";
-    public static final String TRANSFER_SUCCESSFUL_MESSAGE="Transfer Successful";
+    public static final String TRANSFER_FAILURE_CODE = "009";
+    public static final String TRANSFER_FAILURE_MESSAGE="Transfer Failed";
 
     public static String generateAccountNumber(){
 
